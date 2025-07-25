@@ -77,15 +77,18 @@
     height: 100%;
     width: 100%;
 }
-.box .content form select, .box .content form input{
+.box .content form label{
+    font-size: .85rem;
+}
+.box .content form select,.box .content form input{
     height: 30px;
     box-sizing: border-box;
-    margin-bottom: 5px;
 }
 .box .content form .extra{
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    margin-top: 5px;
+    gap: 4px;
 }
 .box .content form .extra .error{
     font-weight: 600;
