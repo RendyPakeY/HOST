@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome | E-PRESENT</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/img/icon.png">
+</head>
+<body>
+    <main class="container">
+        <div class="box">
+            <img src="assets/img/logo.png" alt="logo" class="logo">
+            <div class="content">
+                <div class="welcome">
+                    <p>E-PRESENT adalah aplikasi absensi untuk kegiatan ekstrakurikuler E-ROM, dirancang untuk mempermudah pencatatan
+                        kehadiran. Aplikasi hanya dapat diakses saat kegiatan berlangsung atau sesuai instruksi Admin, dan membutuhkan
+                        kode unik dari pemateri atau tim.</p>
+                </div>
+                <form action="">
+                    <label for="anggota">Nama Lengkap</label>
+                    <select name="anggota" id="anggota" >
+                        <option value="Placeholder"> -- Pilih Nama Anda -- </option>
+                        <option value="Rendy">Rendy</option>
+                        <option value="Rafly">Rafly</option>
+                        <option value="Fauzan">Fauzan</option>
+                    </select>
+                    <label for="kelas">Kelas</label>
+                    <input type="text" value="XI TAV 2" readonly>
+                    <label for="kelas">Kode Absen</label>
+                    <input type="text" value="" placeholder="Masukan kode disini">
+                    <div class="extra">
+                        <div class="error"><p><i class='fa-solid fa-circle-xmark'></i>Error Message</p></div>
+                        <div class="add"><a href="">Klik saya jika nama anda tidak ada</a></div>
+                    </div>
+                </form>
+                </div>
+                <button class="blue-button">Mulai Sekarang</button>
+                </div>
+    </main>
+    <script src="https://kit.fontawesome.com/cc079fac56.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
